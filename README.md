@@ -1,7 +1,7 @@
 # Laravel Remote Commands
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/iperamuna/laravel-remote-commands.svg?style=flat-square)](https://packagist.org/packages/iperamuna/laravel-auto-translations)
-[![Total Downloads](https://img.shields.io/packagist/dt/iperamuna/laravel-remote-commands.svg?style=flat-square)](https://packagist.org/packages/iperamuna/laravel-auto-translations)
+[![Total Downloads](https://img.shields.io/packagist/dt/iperamuna/laravel-remote-commands.svg?style=flat-square)](https://packagist.org/packages/iperamuna/laravel-remote-commands)
 [![License](https://img.shields.io/github/license/iperamuna/laravel-remote-commands?style=flat-square)](LICENSE)
 
 ✨ A lightweight Laravel package that enables executing commands on remote servers over SSH using phpseclib. Designed for Laravel developers who need a simple and secure way to run remote commands — no file transfers, just command execution.
