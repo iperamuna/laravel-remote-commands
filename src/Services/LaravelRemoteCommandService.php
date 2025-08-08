@@ -32,7 +32,7 @@ class LaravelRemoteCommandService
 
         $key = $config['auth_type'] === 'password'
             ? $config['password']
-            : PublicKeyLoader::load(file_get_contents($config['private_key']));
+            : PublicKeyLoader::load(file_get_contents($config['public_key']));
 
         if (!$this->ssh->login($config['username'], $key)) {
             throw new Exception("Login failed for server [$server]");

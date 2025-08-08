@@ -8,7 +8,7 @@ return [
             'username' => '',
             'auth_type' => 'password',//publickey, password
             'password' => '',
-            'key' => '' // publicKey Path
+            'public_key' => '' // publicKey Path
         ],
     ],
 ];
