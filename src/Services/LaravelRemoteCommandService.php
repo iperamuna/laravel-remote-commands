@@ -23,7 +23,7 @@ class LaravelRemoteCommandService
      */
     public function into(string $server): self
     {
-        $config = config("remote.servers.$server");
+        $config = config("remote-commands.servers.$server");
         if (!$config) {
             throw new Exception("No configuration found for server [$server]");
         }
